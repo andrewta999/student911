@@ -1,0 +1,68 @@
+.navbar-default{
+	background-color: #D80386;
+}
+
+.navbar-brand{
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+.navbar-nav{
+	margin-left: 20px
+}
+
+.list-group-item-info{
+	background-color: #29ADFF;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #ffffff;
+	text-align: justify;
+}
+
+.subject{
+	text-decoration: none;
+	color: #29FF7B;
+	margin-left: 5px;
+	font-weight: bold;
+}
+
+.list-group-item{
+	text-decoration: none;
+}
+
+.card{
+	border: 0.2rem solid #7A28FF;
+	border-radius: 0.4rem;
+	background-color: #FFF;
+	width: 350px;
+	height: auto;
+	padding: 5px;
+	float: left;
+	margin: 10px;
+}
+
+.card img{
+	height: 250px;
+}
+
+#main{
+	margin-top: 100px;
+}
+
+h1{
+	text-align: center;
+}
+
+.test{
+	text-align: center;
+}
+
+.navbar-header img{
+	width: 100px;
+	height: 50px;
+	position: relative;
+	top: -15px;
+}

@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load filename %}
+{% block content %}
+{% load static %}
+
+<div class="col-md-9">
+	<a href="/learning/share/" class="btn btn-info">Share the resources you learnt from</a>
+	<div class="row">
+		{% for p in post %}
+		<div class="card product">
+			<img src="/static/imgs/{{p.upload|filename}}" class="card-img-top img-responsive">
+			<div class="card-block">
+				<h4 class="card-title">{{p.title}}</h4>
+				<p class="card-text">Posted by <b><i>{{p.name}}</i></b></p>
+				<p class="card-text">on <b><i>{{p.date}}</i></b></p>
+				Website: <a href="{{p.url}}" class="source">{{p.url}}</a>
+				<p class="card-text">Description: {{p.description}}</p>
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+</div>
+
+{% endblock %}
